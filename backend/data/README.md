@@ -1,0 +1,1 @@
+Prototype data is embedded in backend/main.py and is synthetic/demo data.

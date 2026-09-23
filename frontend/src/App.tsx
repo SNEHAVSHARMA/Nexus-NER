@@ -4,7 +4,7 @@ import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import {AlertTriangle, BarChart3, CheckCircle2, ChevronRight, CloudRain, Clock3, Compass, IndianRupee, MapPin, Menu, Navigation, Phone, Radio, RefreshCw, Route, Send, Settings as SettingsIcon, ShieldCheck, Truck, Wind, X, LocateFixed, Camera, Hospital, Fuel, Wrench} from 'lucide-react';
 
-const API='http://localhost:8000';
+const API='https://nexus-ner.onrender.com';
 
 type RouteData={id:string,name:string,distance:number,time_min:number,estimated_time:string,risk:number,risk_category:string,accessibility:number,reliability:number,cost:{fuel:number,tolls:number,operations:number,total:number},route_score:number,weather:{rainfall:number,severity:number,condition:string,wind_speed:number,temperature:number},contributors:Record<string,number>,breakdown:Record<string,number>,points:number[][]};
 
